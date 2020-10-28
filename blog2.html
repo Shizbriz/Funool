@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Blog</title>
+</head>
+
+<body>
+    <div class="dots">
+        <a href="#"></a>
+        <a href="#footer"></a>
+        
+    </div>
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">Home</a>
+            <a href="index.html#about">About Us</a>
+            <a href="index.html#services">What We Offer</a>
+            <a href="index.html#contact">Contact Us</a>
+        </div>
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/funool.png" />
+            </a>
+        </div>
+        <div class="nav-right" id="navRight">
+            <a href="activities.html">Activities</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="blog.html">Blog</a>
+            <a href="pricing.html">Prices</a>
+        </div>
+        <div class="bars">
+            <button class="btn" onclick="side('navRight')" style="background-color: transparent;"><i class="fas fa-bars" style="color:  #f2d426;"></i></button>
+            
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="blog-page">
+
+            <div class="bpg-main">
+                <div class="bpg-sidebar col-2" id="sidebar">
+                    <a href="blog.html"><button class="btn" style="margin-bottom: 20px;"><span style="color: white;">Read
+                                New </span></button></a>
+    
+                    <ul style="padding: 0;">
+                        <li> <a href="#"> Saving Culture</a></li>
+                        <li> <a href="#"> Little Chef</a></li>
+                        <li> <a href="#">Reading Culture</a></li>
+                        <li> <a href="#"> Write a Blog</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="sise">
+                        <button class="btn" onclick="side('sidebar')"
+                            style="background-color: transparent; padding: 0; margin-right: 20px;">
+                            <i class="fas fa-bars"> </i>
+                        </button>
+                        <form class="searchbar">
+                            <button class="btn" style="background-color: transparent;">
+                                <i class="fas fa-search"></i>
+                            </button>
+    
+                            <input type="text" style="width: 80%; height: 50px; border: 0;" placeholder="    Search...">
+    
+                            <div>
+                                <div class="dropdown">
+                                    <button class="btn" id="dropdown1" datatoggle="dropdown1" aria-haspopup="true"
+                                        aria-expanded="false"
+                                        style="margin-left: 20px; background-color: #ff006e10; border-radius: 0;">
+                                        <span style="color: #ff006e;"> Topics <i class="fa fa-angle-down"
+                                                style="color: #ff006e;"></i></span>
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdown" id="dropdown-menu1">
+                                        <a class="dropdown-item" href="#">Saving Culture</a>
+                                        <a class="dropdown-item" href="#">Little Chef</a>
+                                        <a class="dropdown-item" href="#">Hygiene</a>
+                                        <a class="dropdown-item" href="#">First Aid</a>
+    
+    
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-11">
+                        <div class="cul" style="padding: 20px 0;">
+                            <img src="images/kolo.jpg" width="150px" height="100px" style="margin: 10px 10px 10px 0 ;" />
+                            <h2 style="margin-top: 40px;">Savings Culture</h2>
+                        </div>
+    
+                        <h6 class="text-muted">Tolu</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                            ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim venia. Lorem ipsum dolor
+                            sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+                            dolore magna aliquam erat volutpat. Ut wisi enim ad minim venia. Lorem ipsum dolor sit amet,
+                            consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                            aliquam erat volutpat. Ut wisi enim ad minim venia. Lorem ipsum dolor sit amet, consectetuer
+                            adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+                            volutpat. Ut wisi enim ad minim venia.
+                        </p>
+                        <p class="btn" style="margin-top: 0;">23 comments</p>
+                    </div>
+    
+                    <div class="col-md-7">
+                        <form>
+                            <textarea name="message" cols="30" rows="5" class="form-control"
+                                placeholder="Start typing..."></textarea>
+                        </form>
+    
+                        <button class="btn">Post comment</button>
+    
+                    </div>
+                </div>
+               
+            </div>
+
+            <div>
+                <h4>Recent</h4>
+                <div class="bpg-end">
+                    <div>
+                        <h5>Reading Culture</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                            ut laoreet dolore magna aliquam erat volutpat.
+                        </p>
+                    </div>
+    
+                    <hr>
+    
+                    <div>
+                        <h5>Reduce Reuse Recycle</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                                ut laoreet dolore magna aliquam erat volutpat.
+                        </p>
+                    </div>
+    
+                    <hr>
+    
+                    <div>
+                        <h5>Lose Some Win Some</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                                ut laoreet dolore magna aliquam erat volutpat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer id="footer">
+        &copy; <span style="color: rgb(242, 211, 36, 0.2);">Funool 2020</span>
+    </footer>
+
+    <script src="js/scroll.js"></script>
+    <script src="js/fontawesome.js"></script>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
