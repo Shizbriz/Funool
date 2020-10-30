@@ -384,9 +384,7 @@ color: #5e0b15;
     box-shadow: 2px 2px 5px black;
     width: 90%;
 }
-.dropdown:hover .dropdown-menu{
-    display: block;
-}
+
 ::placeholder{
     color:  #5e0b1550;
 }
