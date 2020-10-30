@@ -384,6 +384,9 @@ color: #5e0b15;
     box-shadow: 2px 2px 5px black;
     width: 90%;
 }
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
 ::placeholder{
     color:  #5e0b1550;
 }
@@ -464,4 +467,5 @@ ul{
     .phot1 img{height: 300px;}
     .blog-posts1, .blog-posts2{grid-template-columns: auto;}
     .bpg-end{ flex-wrap: wrap;}
+    .price-right{padding: 0 ;}
 }
